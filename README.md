@@ -28,6 +28,7 @@ Plus, who doesn't love pretty graphs?
 - Auber Instruments PT100 (I went with the 12ft braided cable with XLRCON-M connector option as it gave me a ton of flexibility on where the brains could sit during brew day): https://www.auberins.com/index.php?main_page=product_info&cPath=20_131_15&products_id=261
 - Adafruit Max 31865 Amplifier: https://www.adafruit.com/product/3328
 - various wires and pins/headers
+- All but one components are mounted using M2 screws and nuts (the XLR  receptacle is attached using M3 screws/nuts).
 
 #### Case
 Printed on my Ender3 V2 using Elegoo PLA with a standard quality profile in Cura. 
@@ -46,7 +47,6 @@ You'll find my original configuration which I hooked up to Home assistant under 
 
 ## Usage notes
 Font files must be present in /config volume to be able to properly load them for the screen.
-All components except the XLR plug receptacle (uses M3) are mounted using M2 screws and nuts. I used an additional nut to offset the screen away from the case.
 
 ## Future Plans/Known issues
 - Convert to MQTT/NodeRed/InfluxDB/Grafana stack for data polling and management

@@ -1,7 +1,7 @@
 # esp32brewkettle
 Simple project marrying two of my hobbies, technology and beer brewing. Handles brew kettle temperature tracking using an ESP32 dev board running ESPHome and a 3 wire PT100 RTD sensor and a small inexpensive 0.96 in OLED screen. 
 
-<img src="https://github.com/Mtbred/esp32brewkettle/blob/main/assets/photos/brewkettle5.jpg" width="200" height="444"/>
+<img src="https://github.com/Mtbred/esp32brewkettle/blob/main/assets/photos/brewkettle5.jpg" width="270" height="480"/>
 
 
 ## Project Overview
@@ -37,8 +37,12 @@ Printed on my Ender3 V2 using Elegoo PLA with a standard quality profile in Cura
 - wall count: 3
 - supports: ZigZag
 
+#### Wiring Diagram
+WIP
+
 #### Software
-I already had ESPHome running in my homelab via their docker container(https://hub.docker.com/r/esphome/esphome) which meant I was able to quickly build out configurations for each of the components. You'll find my original configuration which I hooked up to Home assistant under ESPHome/brewkettle_HA.yaml. (future iteration that I have feeding to an InfluxDB will be added). 
+I already had ESPHome running in my homelab via their docker container(https://hub.docker.com/r/esphome/esphome) making it easy to build out configurations for each of the components. 
+You'll find my original configuration which I hooked up to Home assistant under ESPHome/brewkettle_HA.yaml. (future iteration that I have feeding to an InfluxDB will be added). 
 
 ## Usage notes
 Font files must be present in /config volume to be able to properly load them for the screen.
@@ -46,7 +50,7 @@ Font files must be present in /config volume to be able to properly load them fo
 ## Future Plans/Known issues
 - Convert to MQTT/NodeRed/InfluxDB/Grafana stack for data polling and management
 - Reprint case using PETG
-- REplace mounting holes with peg board solution
+- Replace mounting holes with peg board solution
 
 ### Lessons Learned
 - The initial idea for a project is great, even fleshed out however if you are stepping into something new you will inevitably hit a point where you realize you could have made better decisions at the beginning. Don't be afraid to cut a foundational piece because you've spent time on it (Arduino vs ESP32)

@@ -1,6 +1,8 @@
 # esp32brewkettle
 Simple project marrying two of my hobbies, technology and beer brewing. Handles brew kettle temperature tracking using an ESP32 dev board running ESPHome and a 3 wire PT100 RTD sensor and a small inexpensive 0.96 in OLED screen. 
 
+<img src="//assets/photos/brewkettle5.jpg" width="200" height="200" />
+
 ## Project Overview
 
 ### Why not just buy an off the shelf sensor?
@@ -27,19 +29,28 @@ Plus, who doesn't love pretty graphs?
 - various wires and pins/headers
 
 #### Case
-Printed on my ender3 V2 using Elegoo PLA with a standard quality profile in Cura. 
+Printed on my Ender3 V2 using Elegoo PLA with a standard quality profile in Cura. 
 - Infill: 20% 
 - layer height: 0.2mm
 - Nozzle size: 0.4mm
 - wall count: 3
 - supports: ZigZag
 
+#### Software
+I already had ESPHome running in my homelab via their docker container(https://hub.docker.com/r/esphome/esphome) which meant I was able to quickly build out configurations for each of the components. You'll find my original configuration which I hooked up to Home assistant under ESPHome/brewkettle_HA.yaml. (future iteration that I have feeding to an InfluxDB will be added). 
+
 ## Usage notes
+Font files must be present in /config volume to be able to properly load them for the screen.
 
 ## Future Plans/Known issues
+- Convert to MQTT/NodeRed/InfluxDB/Grafana stack for data polling and management
+- Reprint case using PETG
+- REplace mounting holes with peg board solution
 
-### Iterations/Lessons Learned
-    I went through a few iterations of this project. initially starting with an Arduino UNO R3 and C++. I had a functional prototype on a breadboard with the sensor and screen displaying the temperature as expected. 
+### Lessons Learned
+- The initial idea for a project is great, even fleshed out however if you are stepping into something new you will inevitably hit a point where you realize you could have made better decisions at the beginning. Don't be afraid to cut a foundational piece because you've spent time on it (Arduino vs ESP32)
+- Prototyping to ensure measurements are accurate is always going to be helpful when it comes time to print a final product
+- Goals for the project can change over time, but getting to the point of having a project in a functional state before you add on more bells and whistles feels great
 
 ## License
 

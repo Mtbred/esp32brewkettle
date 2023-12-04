@@ -59,7 +59,7 @@ Font files must be present in /config volume to be able to properly load them fo
 
 ### A few project photos
 <img src="https://github.com/Mtbred/esp32brewkettle/blob/main/assets/photos/brewkettle1.jpg" width="384" height="510"/>
-<img src="https://github.com/Mtbred/esp32brewkettle/blob/main/assets/photos/brewkettle2.jpg" width="270" height="480"/>
+<img src="https://github.com/Mtbred/esp32brewkettle/blob/main/assets/photos/brewkettle2.jpeg" width="270" height="480"/>
 <img src="https://github.com/Mtbred/esp32brewkettle/blob/main/assets/photos/brewkettle3.jpg" width="384" height="510"/>
 <img src="https://github.com/Mtbred/esp32brewkettle/blob/main/assets/photos/brewkettle4.jpg" width="384" height="510"/>
 <img src="https://github.com/Mtbred/esp32brewkettle/blob/main/assets/photos/ec1.jpg" width="384" height="510"/>

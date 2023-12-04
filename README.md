@@ -57,6 +57,14 @@ Font files must be present in /config volume to be able to properly load them fo
 - Prototyping to ensure measurements are accurate is always going to be helpful when it comes time to print a final product
 - Goals for the project can change over time, but getting to the point of having a project in a functional state before you add on more bells and whistles feels great
 
+### A few project photos
+<img src="https://github.com/Mtbred/esp32brewkettle/blob/main/assets/photos/brewkettle1.jpg" width="270" height="480"/>
+<img src="https://github.com/Mtbred/esp32brewkettle/blob/main/assets/photos/brewkettle2.jpg" width="270" height="480"/>
+<img src="https://github.com/Mtbred/esp32brewkettle/blob/main/assets/photos/brewkettle3.jpg" width="270" height="480"/>
+<img src="https://github.com/Mtbred/esp32brewkettle/blob/main/assets/photos/brewkettle4.jpg" width="270" height="480"/>
+<img src="https://github.com/Mtbred/esp32brewkettle/blob/main/assets/photos/ec1.jpg" width="270" height="480"/>
+<img src="https://github.com/Mtbred/esp32brewkettle/blob/main/assets/photos/prototype1.jpg" width="270" height="480"/>
+
 ## License
 
 MIT License © github.com/Mtbred

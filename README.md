@@ -1,5 +1,5 @@
 # esp32brewkettle
-Simple project marrying two of my hobbies, technology and beer brewing. Handles brew kettle temperature tracking using an ESP32 dev board running ESPHome and a 3 wire PT100 RTD sensor and a small inexpensive 0.96 in OLED screen. 
+Simple project marrying two of my hobbies: technology and beer brewing. Handles brew kettle temperature tracking using an ESP32 dev board running ESPHome and a 3 wire PT100 RTD sensor and a small inexpensive 0.96 inch OLED screen. 
 
 <img src="https://github.com/Mtbred/esp32brewkettle/blob/main/assets/photos/brewkettle5.jpg" width="270" height="480"/>
 

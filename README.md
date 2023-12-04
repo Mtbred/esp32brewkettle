@@ -46,6 +46,7 @@ You'll find my original configuration which I hooked up to Home assistant under 
 
 ## Usage notes
 Font files must be present in /config volume to be able to properly load them for the screen.
+All components except the XLR plug receptacle (uses M3) are mounted using M2 screws and nuts. I used an additional nut to offset the screen away from the case.
 
 ## Future Plans/Known issues
 - Convert to MQTT/NodeRed/InfluxDB/Grafana stack for data polling and management

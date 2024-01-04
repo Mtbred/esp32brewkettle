@@ -48,15 +48,20 @@ You'll find my original configuration which I hooked up to Home assistant under 
 ## Usage notes
 Font files must be present in /config volume to be able to properly load them for the screen.
 
-## Future Plans/Known issues
-- Convert to MQTT/NodeRed/InfluxDB/Grafana stack for data polling and management
-- Reprint case using PETG
-- Replace mounting holes with peg board solution
+## Future Plans
+-  Convert to MQTT/NodeRed/InfluxDB/Grafana stack for data polling and management (potentially?)
+-  Convert case join to magnetic connection
+-  Reprint case on Bambu P1S for textured finish
+-  Replace mounting holes with peg board solution
+-  Really loving the round displays like the waveshare 1.28 in circular display lately. Would love to redesign the screen portion to use a circular screen with context information related to current process/target
+
+https://www.aliexpress.us/w/wholesale-waveshare-1.28-circular.html?spm=a2g0o.productlist.search.0
 
 ### Lessons Learned
 - The initial idea for a project is great, even fleshed out however if you are stepping into something new you will inevitably hit a point where you realize you could have made better decisions at the beginning. Don't be afraid to cut a foundational piece because you've spent time on it (Arduino vs ESP32)
 - Prototyping to ensure measurements are accurate is always going to be helpful when it comes time to print a final product
 - Goals for the project can change over time, but getting to the point of having a project in a functional state before you add on more bells and whistles feels great
+- Snap fit is always tough as you change materials, PETG print was difficult as was other brands of PLA. 
 
 ### A few project photos (sorry the focus is awful)
 <img src="https://github.com/Mtbred/esp32brewkettle/blob/main/assets/photos/brewkettle1.jpg" width="384" height="510"/>

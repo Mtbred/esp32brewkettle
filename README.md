@@ -29,14 +29,20 @@ Plus, who doesn't love pretty graphs?
 - Adafruit Max 31865 Amplifier: https://www.adafruit.com/product/3328
 - various wires and pins/headers
 - All but one components are mounted using M2 screws and nuts (the XLR  receptacle is attached using M3 screws/nuts).
+- v2 makes use of 8x2mm magnets (8 of them): https://a.co/d/6sLEmh9
 
 #### Case
-Printed on my Ender3 V2 using Elegoo PLA with a standard quality profile in Cura. 
+The Original was printed on my Ender3 V2 using Elegoo PLA with a standard quality profile in Cura. 
 - Infill: 20% 
 - layer height: 0.2mm
 - Nozzle size: 0.4mm
 - wall count: 3
 - supports: ZigZag
+
+v2 was printed on my new Bambu Labs P1S using PETG-CF with some tweaked profiles with a hardened 0.4mm nozzle. Feel free to reach out if you want any of the profile configurations.
+
+v2 of the case upgrades from a press fit connection to using 8x2mm magnets to hold it together as well as a redesign of the cable tie mounts so that they can print without supports. 
+
 
 #### Wiring Diagram
 WIP
@@ -50,8 +56,9 @@ Font files must be present in /config volume to be able to properly load them fo
 
 ## Future Plans
 -  Convert to MQTT/NodeRed/InfluxDB/Grafana stack for data polling and management (potentially?)
--  Convert case join to magnetic connection
--  Reprint case on Bambu P1S for textured finish
+-  ~~Convert case join to magnetic connection~~
+-  ~~Reprint case on Bambu P1S for textured finish~~
+-  Upload photos of v2 case
 -  Replace mounting holes with peg board solution
 -  Really loving the round displays like the waveshare 1.28 in circular display lately. Would love to redesign the screen portion to use a circular screen with context information related to current process/target
 
@@ -61,7 +68,8 @@ https://www.aliexpress.us/w/wholesale-waveshare-1.28-circular.html?spm=a2g0o.pro
 - The initial idea for a project is great, even fleshed out however if you are stepping into something new you will inevitably hit a point where you realize you could have made better decisions at the beginning. Don't be afraid to cut a foundational piece because you've spent time on it (Arduino vs ESP32)
 - Prototyping to ensure measurements are accurate is always going to be helpful when it comes time to print a final product
 - Goals for the project can change over time, but getting to the point of having a project in a functional state before you add on more bells and whistles feels great
-- Snap fit is always tough as you change materials, PETG print was difficult as was other brands of PLA. 
+- Snap fit is always tough as you change materials, PETG print was difficult as was other brands of PLA. The move to magnets in v2 felt like a huge upgrade
+- Design with supports in mind!
 
 ### A few project photos (sorry the focus is awful)
 <img src="https://github.com/Mtbred/esp32brewkettle/blob/main/assets/photos/brewkettle1.jpg" width="384" height="510"/>
